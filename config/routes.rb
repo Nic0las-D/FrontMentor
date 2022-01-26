@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get 'exercice1', to: 'pages#exercice1'
+  get 'exercice2', to: 'pages#exercice2'
+  get 'exercice3', to: 'pages#exercice3'
 end
